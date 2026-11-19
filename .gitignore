@@ -8,5 +8,5 @@ build/
 .DS_Store
 
 # Generated large submission CSVs (keep PNGs & READMEs)
-experiments/*/outputs/*.csv
+experiments/*/outputs*/*.csv
 outputs/*.png
