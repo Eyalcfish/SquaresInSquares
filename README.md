@@ -25,6 +25,8 @@ uv pip install --python .venv/bin/python pytest
 - `experiments/exp3`: Fixed-Box L-BFGS-B Compression + Binary Search (`28.71953` on 20-puzzle subset)
 - `experiments/exp4`: Parallelized Fixed-Box L-BFGS-B Compression across all `n=1..1000` (`--workers`)
 - `experiments/exp5`: Big Bang Bounded Simulated Annealing (`28.83824` on 20-puzzle subset)
+- `experiments/exp6`: Expanding-Bucket Circle Drop + Bounded SA (`28.83134` on 20-puzzle subset)
+- `experiments/exp7`: Multi-Family Geometric Portfolio ($45^\circ$ Octagons, Tilted Strips, Composites, L-BFGS-B Polish, 60-digit `mpmath` certification) — **`22.99696`** full 1,000-puzzle Kaggle score (`-5.94071` vs baseline, `1000/1000` `mp60` valid)
 
 Run any experiment from the repo root, e.g.:
 
